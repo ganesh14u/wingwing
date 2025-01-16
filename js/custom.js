@@ -7,6 +7,11 @@ function getYear() {
 
 getYear();
 
+var loader =document.getElementById("loader")
+window.addEventListener("load",function(){
+    loader.style.display = "none"
+})
+
 
 // isotope js
 $(window).on('load', function () {

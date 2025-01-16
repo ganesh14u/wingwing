@@ -6,6 +6,14 @@ body {
   overflow-x: hidden;
 }
 
+#loader {
+  background: #ffffff url(images/imh1.gif) no-repeat center center;
+  background-size: 10%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
 .layout_padding {
   padding: 90px 0;
 }
